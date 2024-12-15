@@ -3,7 +3,7 @@
 let userNumbInput = prompt("Введіть ціле число");
 userNumbInput = userNumbInput?.trim();
 
-if (!userNumbInput || !Number.isInteger(Number(userNumbInput))) {
+if (!userNumbInput || !Number.isInteger(Number(userNumbInput))) { // Перевірка на пусте значення, null, NaN, ціле число
     console.log("Error! Некоректне число. Введіть ціле число.");
 }
 else {
